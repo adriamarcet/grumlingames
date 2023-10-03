@@ -1,5 +1,5 @@
 .cta {
-    background-color: var(--color-base-brown);
+    background-color: var(--color-base-purple);
     color: var(--color-light);
     display: inline-block;
     padding: space(1.25) space(2);
@@ -23,7 +23,7 @@
         font-weight: bold;
 
         &:hover {
-            background-color: var(--color-base-brown);
+            background-color: var(--color-base-purple);
             border: 2px solid var(--color-light);
             color: var(--color-light);
         }

@@ -15,11 +15,27 @@
     "slider_next_slide": "Next slide"
   },
   "billboard": {
-    "title": "Matrícula oberta a partir del 15 de juliol",
-    "description": "Teatre musical en format intensiu de 12 setmanes amb funció al final en un teatre. Les sessions es dividiran en cant, interpretació i dansa i seran el dilluns i el dissabte al matí.",
-    "cta_label": "Inscriu-te ara"
+    "title": "Benvingut a Grumlin Games: Grans Jocs en Petites Caixes",
+    "description": "A Grumlin Games, creem emocionants i memorables jocs de taula per a totes les edats. El nostre primer llançament, 'Misty Valley', és només el començament.",
+    "cta_label": "Contacta'ns"
+  },
+  "home": {
+    "misty_valley": {
+      "title": "Misty Valley: Un Món de Màgia i Misteri",
+      "description": "Misty Valley és un divertit joc de taula per a dos intrèpids exploradors. Descobreix la vall neblinosa i conquereix els seus recursos per guanyar!",
+      "description_2": "La Vall Nebulosa amaga molts secrets, però només els exploradors més intrèpids poden descobrir-los! Uneix-te a una de les dues tribus, els 'Roebayas' i els 'Buscarrastres', i explora terreny desconegut, competint amb el teu rival pels recursos més valuosos. Comença l'aventura amb Misty Valley!"
+    },
+    "magimals": {
+      "title": "Magimals: Troba els teus Companyons Màgics",
+      "description": "A 'Magimals', et submergiràs en un regne màgic ple de criatures sorprenents. Prepara't per desplegar les habilitats dels teus 'Magimals' per molestar al teu oponent i fusionar-los per a crear combinacions sorprenents en aquest emocionant joc de taula."
+    },
+    "galeon": {
+      "title": "Galeon Goblin: Saqueja amb Estil",
+      "description": "Prepara't per aixecar l'àncora al 'Galeon Goblin' i embarcar-te en una aventura pirata com cap altra! Reuneix la teva tripulació, navega pels mars traïdors i saqueja tresors llegendaris. Seràs el pirata més astut i temut de tots els temps?"
+    }
   },
   "commons": {
+    "contact_us": "Contacta'ns",
     "your_phone_number": "Your phone number or email",
     "cta_back_home": "Main page",
     "request": "Get in touch"
@@ -95,31 +111,9 @@
       "title": "Privacy policy"
     }
   },
-  "services": {
-    "title": "Perque BROADWAY BCN funciona",
-    "service_1": {
-      "title": "Teatre musical per a totes les edats",
-      "description": "Grups per infants a partir de 7 anys i joves a partir de 14."
-    },
-    "service_2": {
-      "title": "Cursos bilingüe castellà o català - anglès",
-      "description": "Tots els professors són bilingües i parlen anglès durant les seves classes."
-    },
-    "service_3": {
-      "title": "Actuació al teatre",
-      "description": "Tots els cursos intensius acabaran el trimestre amb una funció en un teatre real."
-    }
-  },
-  "teachers": {
-    "title": "Coneix el nostre equip",
-    "teacher_1": {
-      "name": "Jofre Alsina",
-      "description": "Jofre ve de Barcelona, ​​on va obtenir un BA Hons. a Teatre Físic a l'Institut del Teatre d'Espanya. A Londres va estudiar art dramàtic al Rose Bruford College, on va desenvolupar encara més les seves habilitats amb el piano i el contrabaix. Es va graduar el 2009 amb una llicenciatura amb honors en Actuació Musical."
-    },
-    "teacher_2": {
-      "name": "",
-      "description": ""
-    }
+  "contact_form": {
+    "description": "A Grumlin Games, valorem la creativitat i la innovació en el món dels jocs de taula. Si ets un autor de jocs de taula apassionat i tens un prototip que creus que podria ser el pròxim èxit, ens encantaria escoltar-te! Envia'ns el teu prototip i explica'ns la teva visió. Estem sempre a la recerca de noves idees. Contacta'ns!",
+    "claim": "Tens alguna pregunta, comentari o suggeriment? O estàs llest per compartir el teu prototip de joc amb nosaltres? No dubtis a posar-te en contacte amb l'equip de Grumlin Games. Estem aquí per escoltar-te i col·laborar amb tu en la creació d'experiències de joc inoblidables."
   },
   "thank_you": {
     "title": "Thank you for contacting us",
@@ -127,23 +121,14 @@
   },
   "title": "Hi",
   "meta": {
-    "title": "Broadway BCN l'academia de teatre musical per joves a Barcelona",
-    "description": "Accès per alumnes a partir dels 7 anys, totes les classes són amb un/a professora/a bilingüe i amb l'anglès com idioma base, tots els cursos intensius ténen funció final dins dun teatre.",
+    "title": "Grumlin Games, grandes juegos en pequeñas cajas",
+    "description": "A Grumlin Games, creem emocionants i memorables jocs de taula per a totes les edats. El nostre primer llançament, 'Misty Valley', és només el començament.",
     "url": "https://www.grumlingames.com/",
     "image": "https://www.grumlingames.com/assets/img/OGimage-ES.jpg",
     "twitterImage": "https://www.grumlingames.com/assets/img/OGimage-twitter-ES.jpg",
     "twitter": {
-      "site": "@grumlingames",
-      "creator": "@grumlingames"
+      "site": "@sergimarcet",
+      "creator": "@sergimarcet"
     }
-  },
-  "what_we_do": {
-    "title": "Aprèn amb nosaltres",
-    "theatre_title": "Cantar",
-    "theatre_description": "Aprèn amb nosaltres tècniques de respiració, posició i escalfament adequat de les teves cordes vocals específics per cantar un espectacle de teatre musical.",
-    "interpretation_title": "Actuar",
-    "interpretation_description": "Aprèn tècniques d'actuació diferents centrades en el teatre musical.",
-    "dance_title": "Ballar",
-    "dance_description": "Aprèn diferents tècniques de ball centrades al teatre musical."
   }
 }

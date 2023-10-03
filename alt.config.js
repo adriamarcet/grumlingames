@@ -1,7 +1,7 @@
 const SITE_NAME = 'Grumlin Games';
 const SITE_URL = 'https://www.grumlingames.com';
 
-const defaultLanguage = 'en';
+const defaultLanguage = 'ca';
 const languages = ['en', 'es', 'ca'];
 
 const routes = {

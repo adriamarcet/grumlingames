@@ -19,7 +19,23 @@
     "description": "Musical theater in a 12-week intensive format with a function at the end in a theater. Sessions will be divided into singing, acting and dancing and will be on Monday and Saturday mornings.",
     "cta_label": "Apply now"
   },
+  "home": {
+    "misty_valley": {
+      "title": "Misty Valley: Un Món de Màgia i Misteri",
+      "description": "Misty Valley és un divertit joc de taula per a dos intrèpids exploradors. Descobreix la vall neblinosa i conquereix els seus recursos per guanyar!",
+      "description_2": "La Vall Nebulosa amaga molts secrets, però només els exploradors més intrèpids poden descobrir-los! Uneix-te a una de les dues tribus, els 'Roebayas' i els 'Buscarrastres', i explora terreny desconegut, competint amb el teu rival pels recursos més valuosos. Comença l'aventura amb Misty Valley!"
+    },
+    "magimals": {
+      "title": "Magimals: Troba els teus Companyons Màgics",
+      "description": "A 'Magimals', et submergiràs en un regne màgic ple de criatures sorprenents. Prepara't per desplegar les habilitats dels teus 'Magimals' per molestar al teu oponent i fusionar-los per a crear combinacions sorprenents en aquest emocionant joc de taula."
+    },
+    "galeon": {
+      "title": "Galeon Goblin: Saqueja amb Estil",
+      "description": "Prepara't per aixecar l'àncora al 'Galeon Goblin' i embarcar-te en una aventura pirata com cap altra! Reuneix la teva tripulació, navega pels mars traïdors i saqueja tresors llegendaris. Seràs el pirata més astut i temut de tots els temps?"
+    }
+  },
   "commons": {
+    "contact_us": "Contact us",
     "your_phone_number": "Your phone number or email",
     "cta_back_home": "Main page",
     "request": "Get in touch"
@@ -95,31 +111,9 @@
       "title": "Privacy policy"
     }
   },
-  "services": {
-    "title": "Why Grumlin Games works",
-    "service_1": {
-      "title": "Courses for all ages",
-      "description": "Groups from 7 years old and young people from 14 and up."
-    },
-    "service_2": {
-      "title": "English classes",
-      "description": "All teachers are bilingual and speak English during their lessons."
-    },
-    "service_3": {
-      "title": "Performance in a real theatre",
-      "description": "All courses will feature in a real theatre for each end of term."
-    }
-  },
-  "teachers": {
-    "title": "Meet our team",
-    "teacher_1": {
-      "name": "Jofre Alsina",
-      "description": "Jofre comes from Barcelona, where he gained a BA Hons. in Physical Theatre at the Spanish Institut del Teatre. In London he studied drama at Rose Bruford College where he further developed his skills with the piano and the double bass. He graduated in 2009 with a BA Hons in Actor-Musicianship."
-    },
-    "teacher_2": {
-      "name": "Jofre Alsina",
-      "description": "Jofre comes from Barcelona, where he gained a BA Hons. in Physical Theatre at the Spanish Institut del Teatre. In London he studied drama at Rose Bruford College where he further developed his skills with the piano and the double bass. He graduated in 2009 with a BA Hons in Actor-Musicianship."
-    }
+  "contact_form": {
+    "description": "En Grumlin Games, valoramos la creatividad y la innovación en el mundo de los juegos de mesa. Si eres un autor de juegos de mesa apasionado y tienes un prototipo que crees que podría ser el próximo éxito, ¡nos encantaría escucharte! Envíanos tu prototipo y cuéntanos sobre tu visión. Siempre estamos en busca de nuevas ideas. ¡Contáctanos!",
+    "claim": "Tens alguna pregunta, comentari o suggeriment? O estàs llest per compartir el teu prototip de joc amb nosaltres? No dubtis a posar-te en contacte amb l'equip de Grumlin Games. Estem aquí per escoltar-te i col·laborar amb tu en la creació d'experiències de joc inoblidables."
   },
   "thank_you": {
     "title": "Thank you for contacting us",
@@ -127,23 +121,14 @@
   },
   "title": "Grumlin Games",
   "meta": {
-    "title": "Grumlin Games l'academia de teatre musical per joves a Barcelona",
-    "description": "Accès per alumnes a partir dels 7 anys, totes les classes són amb un/a professora/a bilingüe i amb l'anglès com idioma base, tots els cursos intensius ténen funció final dins dun teatre.",
+    "title": "Grumlin Games, grandes juegos en pequeñas cajas",
+    "description": "En Grumlin Games, creamos emocionantes y memorables juegos de mesa para todas las edades. Nuestro primer lanzamiento, 'Misty Valley', es solo el comienzo.",
     "url": "https://www.grumlingames.com/",
     "image": "https://www.grumlingames.com/assets/img/OGimage-ES.jpg",
     "twitterImage": "https://www.grumlingames.com/assets/img/OGimage-twitter-ES.jpg",
     "twitter": {
-      "site": "@grumlingames",
-      "creator": "@grumlingames"
+      "site": "@sergimarcet",
+      "creator": "@sergimarcet"
     }
-  },
-  "what_we_do": {
-    "title": "Learn with us",
-    "theatre_title": "Singing",
-    "theatre_description": "Learn with us breathing techniques, position and the proper warm-up of your specific vocal cords to sing a musical theater show.",
-    "interpretation_title": "Acting",
-    "interpretation_description": "Learn different acting techniques focused on musical theater.",
-    "dance_title": "Dancing",
-    "dance_description": "Learn different dance techniques focused on musical theater."
   }
 }

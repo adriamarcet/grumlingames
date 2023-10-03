@@ -1,6 +1,6 @@
 :root {
-  --color-base-brown: #9b2828;
-  --color-base-orange: #ab5327;
+  --color-base-purple: #5a3561;
+  --color-base-orange: #9b2828;
   --color-dark: #1c180f;
   --color-dark-blue: #3d4775;
   --color-light-blue: #8a94bf;
@@ -347,7 +347,7 @@ textarea {
 
 .theme1 {
   --accent-color: var(--color-dark-blue);
-  --color-background: var(--color-base-brown);
+  --color-background: var(--color-base-purple);
   background-color: var(--color-background);
   color: var(--color-primary); }
 

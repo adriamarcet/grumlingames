@@ -16,14 +16,30 @@
 {% endblock %}
 
 {% block main %}
-    {% include '../components/cover.twig' %}
+    {# {% include '../components/cover.twig' %} #}
     {% include '../components/fix-cta.twig' %}
     {% include '../sections/billboard.twig' %}
-    {% include '../sections/services.twig' %}
-    {% include '../sections/what-we-do.twig' %}
-    {% include '../sections/teachers.twig' %}
+    <section class="{{ class }} padding-top--xxl padding-bottom--xxl">
+        <div class="u-wrapper padding-top--xxl">
+            <h2 class="title2 u-align-center margin-bottom--xxl t-display">{{ 'home.misty_valley.title'|trans }}</h2>
+            <p class="title4 t-serif margin-bottom--xl">{{ 'home.misty_valley.description'|trans }}</p>
+            <p class="title4 t-serif margin-bottom--xl">{{ 'home.misty_valley.description_2'|trans }}</p>
+        </div>
+    </section>
+    <section class="{{ class }} padding-top--xxl padding-bottom--xxl theme2">
+        <div class="u-wrapper padding-top--xxl">
+            <h2 class="title2 u-align-center margin-bottom--xxl t-display">{{ 'home.magimals.title'|trans }}</h2>
+            <p class="title4 t-serif margin-bottom--xl">{{ 'home.magimals.description'|trans }}</p>
+        </div>
+    </section>
+    <section class="{{ class }} padding-top--xxl padding-bottom--xxl theme3">
+        <div class="u-wrapper padding-top--xxl">
+            <h2 class="title2 u-align-center margin-bottom--xxl t-display">{{ 'home.galeon.title'|trans }}</h2>
+            <p class="title4 t-serif margin-bottom--xl">{{ 'home.galeon.description'|trans }}</p>
+        </div>
+    </section>
     {# {% include '../sections/faqs.twig' %} #}
-    {% include '../sections/location.twig' %}
+    {# {% include '../sections/location.twig' %} #}
     {% include '../sections/contact-form.twig' %}
 {% endblock %}
 
