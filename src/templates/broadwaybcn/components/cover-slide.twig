@@ -1,0 +1,14 @@
+{% set slide = component.slide|default({}) %}
+{% set class = component.class|default('cover-slider__slide') %}
+
+<div class="cover-slide {{ class }} swiper-slide ">
+    <div class="cover-slide__image">
+        {% include 'components/picture.twig' with {
+            component: slide.picture
+        } %}
+    </div>
+    <div class="cover-slide__content">
+        <p class="cover-slide__title title4 t-serif">{{ slide.title|raw }}</p>
+        <p class="cover-slide__description t-serif">{{ slide.description|raw }}</p>
+    </div>
+</div>

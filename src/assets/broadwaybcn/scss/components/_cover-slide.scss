@@ -1,0 +1,68 @@
+.cover-slide {
+    height: inherit;
+    position: relative;
+
+    &::before {
+        @include absoluteCover;
+
+        background: var(--color-dark-blue);
+        -webkit-clip-path: polygon(0 45%, 100% 0, 100% 100%, 0% 100%);
+        clip-path: polygon(0 45%, 100% 0, 100% 100%, 0% 100%);
+        content: '';
+        opacity: .9;
+        top: 30%;
+        z-index: 10;
+
+        @include breakpoint($s480) {
+            top: 40%;
+        }
+
+        @include breakpoint($s526) {
+            -webkit-clip-path: polygon(0 0, 100% 45%, 100% 100%, 0% 100%);
+            clip-path: polygon(0 0, 100% 45%, 100% 100%, 0% 100%);
+        }
+    }
+
+    &__image-element {
+        height: 100vh;
+        left: 0;
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+        width: 100vw;
+    }
+
+    &__title,
+    &__description {
+        color: var(--color-light);
+        position: relative;
+        z-index: 1;
+    }
+
+    &__content {
+        @include absoluteCover;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 31.33%; // 80 / 375 * 100
+        padding-right: space(1.25);
+        top: 50%;
+        z-index: 20;
+
+        @include breakpoint($s480) {
+            padding-right: 12.5%; // 60 / 480 * 100
+        }
+
+        @include breakpoint($s526) {
+            padding-bottom: space(2.5);
+            padding-left: space(1.25);
+            padding-right: 34.22%; // 180 / 526 * 100
+        }
+
+        @include breakpoint($s640) {
+            padding-left: 12.5%; // 60 / 480 * 100
+            padding-top: space(2.5);
+        }
+    }
+}

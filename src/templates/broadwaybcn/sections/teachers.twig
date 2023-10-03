@@ -1,0 +1,25 @@
+{% set class = section.class|default('') %}
+
+<section class="teachers {{ class }} padding-top--xxl padding-bottom--xxl theme1">
+    <div class="u-wrapper padding-top--xxl">
+        <h2 class="title2 padding-bottom--xxl margin-bottom--xxl t-display u-align-center">{{ 'teachers.title'|trans }}</h2>
+        <div class="teachers__columns-wrapper">
+            {# {% for i in 1..2 %} #}
+                {% set i = 1 %}
+                
+                {% set teacherName = 'teachers.teacher_' ~ i ~ '.name' %}
+                {% set teacherDesc = 'teachers.teacher_' ~ i ~ '.description' %}
+
+                <div class="teachers__column padding-bottom--xxl margin-bottom--xxl">
+                    <div class="teachers__column-media">
+                        <img class="teachers__column-image" src="{{ asset('teachers/teacher_' ~ i ~ '.jpg') }}" loading="lazy" width="482" height="482" />
+                    </div>
+                    <div class="teachers__column-textual">
+                        <p class="title4 u-bold">{{ teacherName|trans }}</p>
+                        <p class="title6">{{ teacherDesc|trans }}</p>
+                    </div>
+                </div>
+            {# {% endfor %} #}
+        </div>
+    </div>
+</section>

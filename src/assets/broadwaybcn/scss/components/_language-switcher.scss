@@ -1,0 +1,10 @@
+.language-switcher {
+    &__link {
+        padding: 10px;
+    }
+
+    .active {
+        pointer-events: none;
+        text-decoration: none;
+    }
+}

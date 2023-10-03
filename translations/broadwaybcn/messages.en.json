@@ -1,0 +1,149 @@
+{
+  "a11y": {
+    "home_link": "Main page: Broadway BCN",
+    "language_switcher": {
+      "title": "Language switcher",
+      "es": "Español",
+      "ca": "Català",
+      "en": "English"
+    },
+    "new_window": "This link opens in a new tab",
+    "share_with_whatsapp": "Share in whatsapp",
+    "share_with_facebook": "Share in facebook",
+    "share_with_twitter": "Share in twitter",
+    "slider_previous_slide": "Previous slide",
+    "slider_next_slide": "Next slide"
+  },
+  "billboard": {
+    "title": "Registration open from July 15th",
+    "description": "Musical theater in a 12-week intensive format with a function at the end in a theater. Sessions will be divided into singing, acting and dancing and will be on Monday and Saturday mornings.",
+    "cta_label": "Apply now"
+  },
+  "commons": {
+    "your_phone_number": "Your phone number or email",
+    "cta_back_home": "Main page",
+    "request": "Get in touch"
+  },
+  "contact_form_label_subscription": "I want to subscribe to the mailing list.",
+  "contact_form_label_privacy": "I have read and accept the <a href='./privacy_policy' target='_blank'>privacy policy</a>",
+  "contact_form_label_name": "Name and surname",
+  "contact_form_label_phone": "Telephone",
+  "contact_form_label_email": "EMAIL",
+  "contact_form_label_comments": "Comments",
+  "contact_form_title": "Leave us a request and get more information",
+  "commons_contact_us": "Contact Us",
+  "cookies_banner_button_label_ok": "Accept",
+  "cookies_banner_link_more": "<span class='u-sr-only'>I want to </span>Know more<span class='u-sr-only'> about cookies in this site</span>",
+  "cookies_banner_sentence1": "We use cookies",
+  "cookies_banner_sentence2": "This site uses cookies to improve the user experience. Please tell us if you accept all cookies for that purpose.",
+  "cover_slider": {
+    "slide_1": {
+      "title": "Musical theater courses for all ages",
+      "description": "Groups for children from 7 years and young people from 14",
+      "alt": "Description"
+    },
+    "slide_2": {
+      "title": "The bilingual academy for young talents",
+      "description": "All teachers are bilingual and speak English during their classes",
+      "alt": "Description"
+    },
+    "slide_3": {
+      "title": "Intensive courses with a performance in the theater",
+      "description": "All courses will feature in a theater for each end of term",
+      "alt": "Description"
+    }
+  },
+  "faqs": {
+    "title": "Preguntas frecuentes",
+    "faq_1": {
+      "title": "Title",
+      "description": "Description"
+    }
+  },
+  "footer": {
+    "languages_title": "Content available in",
+    "visit_instagram": "Visit us on Instagram",
+    "visit_facebook": "Visit us on Facebook",
+    "visit_youtube": "Visit us on Youtube",
+    "contact_info": "Información de contacto",
+    "address": {
+      "sentence_1": "Carrer de l'Or 24, 08024.",
+      "sentence_2": "Barcelona",
+      "sentence_3": "<span class='js-year'>2021</span>"
+    }
+  },
+  "header": {
+    "link_main_page": "Back to main page"
+  },
+  "location": {
+    "title": "Address",
+    "address": {
+      "title": "Microteatre Barcelona",
+      "complementary": "The face-to-face lessons and end-of-year performances will be inside the MicroTeatre de Barcelona, located in the center of the Gràcia district of Barcelona. In addition, the MicroTeatre has its own bar in case the students' companions want to wait there.",
+      "address": "Carrer de l'Or 25, Barcelona",
+      "phone": "Phone: 932779683"
+    }
+  },
+  "pages": {
+    "home": {
+      "title": "Home"
+    },
+    "privacy_cookies": {
+      "title": "Cookies policy"
+    },
+    "privacy_policy": {
+      "title": "Privacy policy"
+    }
+  },
+  "services": {
+    "title": "Why Broadway BCN works",
+    "service_1": {
+      "title": "Courses for all ages",
+      "description": "Groups from 7 years old and young people from 14 and up."
+    },
+    "service_2": {
+      "title": "English classes",
+      "description": "All teachers are bilingual and speak English during their lessons."
+    },
+    "service_3": {
+      "title": "Performance in a real theatre",
+      "description": "All courses will feature in a real theatre for each end of term."
+    }
+  },
+  "teachers": {
+    "title": "Meet our team",
+    "teacher_1": {
+      "name": "Jofre Alsina",
+      "description": "Jofre comes from Barcelona, where he gained a BA Hons. in Physical Theatre at the Spanish Institut del Teatre. In London he studied drama at Rose Bruford College where he further developed his skills with the piano and the double bass. He graduated in 2009 with a BA Hons in Actor-Musicianship."
+    },
+    "teacher_2": {
+      "name": "Jofre Alsina",
+      "description": "Jofre comes from Barcelona, where he gained a BA Hons. in Physical Theatre at the Spanish Institut del Teatre. In London he studied drama at Rose Bruford College where he further developed his skills with the piano and the double bass. He graduated in 2009 with a BA Hons in Actor-Musicianship."
+    }
+  },
+  "thank_you": {
+    "title": "Thank you for contacting us",
+    "description": "We will answer you shortly."
+  },
+  "title": "Broadway BCN",
+  "meta": {
+    "title": "Broadway BCN l'academia de teatre musical per joves a Barcelona",
+    "description": "Accès per alumnes a partir dels 7 anys, totes les classes són amb un/a professora/a bilingüe i amb l'anglès com idioma base, tots els cursos intensius ténen funció final dins dun teatre.",
+    "url": "https://www.broadwaybcn.com/",
+    "image": "https://www.solar-model.com/assets/img/OGimage-ES.jpg",
+    "twitterImage": "https://www.solar-model.com/assets/img/OGimage-twitter-ES.jpg",
+    "twitter": {
+      "site": "@broadwaybcn",
+      "creator": "@broadwaybcn"
+    }
+  },
+  "what_we_do": {
+    "title": "Learn with us",
+    "theatre_title": "Singing",
+    "theatre_description": "Learn with us breathing techniques, position and the proper warm-up of your specific vocal cords to sing a musical theater show.",
+    "interpretation_title": "Acting",
+    "interpretation_description": "Learn different acting techniques focused on musical theater.",
+    "dance_title": "Dancing",
+    "dance_description": "Learn different dance techniques focused on musical theater."
+  }
+}

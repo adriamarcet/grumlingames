@@ -1,0 +1,45 @@
+.services {
+    &__columns-wrapper {
+        @include breakpoint($s1024) {
+            display: flex;
+        }
+    }
+
+    &__column {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 327px;
+        text-align: center;
+
+        @include breakpoint-minmax($s768, $s1024) {
+            align-items: center;
+            display: flex;
+            max-width: 590px;
+            text-align: left;
+        }
+
+        @include breakpoint($s1024) {
+            @include columns(3, 2);
+        }
+    }
+
+    &__column-image {
+        height: 148px;
+        margin-bottom: space(1.5);
+        margin-left: auto;
+        margin-right: auto;
+        width: 148px;
+
+        @include breakpoint-minmax($s768, $s1024) {
+            margin-bottom: 0;
+            margin-left: 0;
+            margin-right: 0;
+        }
+    }
+
+    &__column-textual {
+        @include breakpoint-minmax($s768, $s1024) {
+            margin-left: space(3);
+        }
+    }
+}

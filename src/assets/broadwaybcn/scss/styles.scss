@@ -1,0 +1,22 @@
+@import './settings/variables';
+@import './tools/functions';
+@import './tools/mixins';
+@import './components/footer';
+@import './utilities/wysiwyg';
+@import './sections/billboard';
+@import './sections/what-we-do';
+@import './sections/services';
+@import './sections/teachers';
+@import './sections/location';
+
+/* To be moved to index crp when finished */
+@import './components/top-bar';
+@import './components/cover';
+@import './components/cover-slider';
+@import './components/cover-slide';
+@import './sections/contact-form';
+
+/* To be moved to default crp when finished */
+@import './components/language-switcher';
+@import './components/cta';
+@import './components/fix-cta';

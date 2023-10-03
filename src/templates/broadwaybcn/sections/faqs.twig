@@ -1,0 +1,18 @@
+{% set class = section.class|default('') %}
+
+<section class="faqs {{ class }} padding-top--xxl padding-bottom--xxl">
+    <div class="u-wrapper padding-top--xxl">
+        <h2 class="title2 padding-bottom--xxl margin-bottom--xxl t-display u-align-center">{{ 'faqs.title'|trans }}</h2>
+        <div class="faqs__columns-wrapper">
+            {% set faq1Title = 'faq.faq_1.title' %}
+            {% set faq1Description = 'faq.faq_1.description' %}
+
+            {% include 'components/toggle-item.twig' with {
+                component: {
+                    title: faq1Title|trans,
+                    text: faq1Description|trans,
+                }
+            } %}
+        </div>
+    </div>
+</section>

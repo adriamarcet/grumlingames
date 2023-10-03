@@ -1,0 +1,48 @@
+.teachers {
+    &__columns-wrapper {
+        // display: flex;
+        // flex-direction: column;
+    }
+
+    &__column {
+        display: flex;
+        flex-direction: column;
+
+        @include breakpoint($s768) {
+            align-items: center;
+            flex-direction: row;
+        }
+    }
+
+    &__column:nth-child(odd) {
+        @include breakpoint($s768) {
+            flex-direction: row-reverse;
+        }
+    }
+
+    &__column-media {
+        @include breakpoint-max($s768) {
+            margin-bottom: space(2);
+        }
+
+        @include breakpoint($s768) {
+            min-width: 35%;
+        }
+
+        @include breakpoint($s1024) {
+            min-width: 50%;
+        }
+    }
+
+    &__column-textual {
+        @include breakpoint($s768) {
+            margin-left: space(1.5);
+            margin-right: space(1.5);
+        }
+
+        @include breakpoint($s1024) {
+            margin-left: space(3.5);
+            margin-right: space(3.5);
+        }
+    }
+}

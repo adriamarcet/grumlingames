@@ -1,0 +1,11 @@
+{% set class = section.class|default('') %}
+
+<section class="contact-form padding-top--xxl padding-bottom--xxl" id="contact">
+    <div class="contact-form__content u-wrapper is-reader">
+        <div class="margin-bottom--xxl">
+            <h2 class="index__section-title title3 t-display">{{ 'contact_form_title'|trans}}</h2>
+        </div>
+
+        {% include 'components/contact-form.twig' %}
+    </div>
+</section>

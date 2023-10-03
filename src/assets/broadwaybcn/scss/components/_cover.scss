@@ -1,0 +1,20 @@
+$topBarHeight: 40px;
+$offset: 100px;
+
+.cover {
+    @include aspect-ratio(3, 4, '.cover-slider');
+
+    z-index: 10;
+
+    @include breakpoint($s526) {
+        @include aspect-ratio(1, 1, '.cover-slider');
+    }
+
+    @include breakpoint($s813) {
+        @include aspect-ratio(16, 9, '.cover-slider');
+    }
+
+    @include breakpoint($s960) {
+        max-height: calc(100vh - 110px);
+    }
+}

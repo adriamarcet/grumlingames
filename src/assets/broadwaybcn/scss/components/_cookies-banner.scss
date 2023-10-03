@@ -1,0 +1,56 @@
+.cookies-banner {
+    background-color: var(--color-light);
+    bottom: space(6.8);
+    color: var(--color-white-base);
+    left: 0;
+    padding: space();
+    position: fixed;
+    width: space(13);
+    z-index: 30;
+
+    @include breakpoint($s768) {
+        bottom: auto;
+        margin: 0 10vw;
+        padding: space(1.5);
+        top: 20vh;
+        width: auto;
+    }
+
+    @include breakpoint($s1024) {
+        bottom: 5vh;
+        top: auto;
+    }
+
+    &__text,
+    .cta--secondary { margin-bottom: space(.5); }
+
+    .cta--secondary {
+        @include breakpoint($s1024) {
+            margin-left: space();
+        }
+    }
+
+    &__wrapper {
+        @include breakpoint($s1024) {
+            align-items: flex-end;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
+    &__actions {
+        @include breakpoint($s1024) {
+            align-items: baseline;
+            display: flex;
+            flex: 1;
+            flex-basis: space(27.5);
+            flex-direction: row-reverse;
+        }
+    }
+
+    &__content {
+        @include breakpoint($s1024) {
+            max-width: $global-reader-width;
+        }
+    }
+}

@@ -1,0 +1,34 @@
+{% extends 'layouts/default.twig' %}
+
+{% block head %}
+    {{ parent() }}
+    <link rel="alternate" hreflang="es" href="https://broadwaybcn.com/es" />
+    <link rel="alternate" hreflang="ca" href="https://broadwaybcn.com/ca" />
+{% endblock %}
+
+{% block title %}
+    {{ parent() }} {{ 'pages.home.title'|trans }}
+{% endblock %}
+
+{% block crp %}
+    {% include 'crp/crp.default.min.css' %}
+	{% include 'crp/crp.index.min.css' %}
+{% endblock %}
+
+{% block main %}
+    {% include '../components/cover.twig' %}
+    {% include '../components/fix-cta.twig' %}
+    {% include '../sections/billboard.twig' %}
+    {% include '../sections/services.twig' %}
+    {% include '../sections/what-we-do.twig' %}
+    {% include '../sections/teachers.twig' %}
+    {# {% include '../sections/faqs.twig' %} #}
+    {% include '../sections/location.twig' %}
+    {% include '../sections/contact-form.twig' %}
+{% endblock %}
+
+{% block scripts %}
+    {{ parent() }}
+    <script src="{{ asset('home.min.js') }}"></script>
+{% endblock %}
+

@@ -1,0 +1,25 @@
+{# {% import 'helpers/macros.html.twig' as macros %} #}
+
+{% set singleItem = commponent.singleItem|default(false) %}
+{% set prefixId = component.prefixId|default('content') %}
+{% set title = component.title|default('') %}
+{% set text = component.text|default('') %}
+
+{% if singleItem %}
+    {% set tag = 'div' %}
+{% else %}
+    {% set tag = 'li' %}
+{% endif %}
+
+<{{ tag }} class="toggle-item">
+    <a href="#{{ prefixId }}" role="button" aria-controls="{{ prefixId }}" aria-expanded="false" class="toggle-item__header js-toggle" data-target="{{ prefixId }}">
+        <div class="u-flex u-flex--align-center u-flex--justify-between">
+            <span class="toggle-item__text">{{ title }}</span>
+            {# {{ macros.icon('add', 'u-icon--add') }}
+            {{ macros.icon('remove', 'u-icon--remove') }} #}
+        </div>
+    </a>
+    <div id="{{ prefixId }}" class="toggle-item__body {{ prefixId }} u-hide--js">
+        <div class="toggle-item__content u-wysiwyg">{{ text }}</div>
+    </div>
+</{{ tag }}>

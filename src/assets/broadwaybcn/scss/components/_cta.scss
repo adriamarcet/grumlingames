@@ -1,0 +1,61 @@
+.cta {
+    background-color: var(--color-base-brown);
+    color: var(--color-light);
+    display: inline-block;
+    padding: space(1.25) space(2);
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%;
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    @include breakpoint($s480) {
+        width: auto;
+    }
+
+    &--hollow {
+        background-color: transparent;
+        border: 2px solid var(--color-dark);
+        color: var(--color-dark);
+        font-weight: bold;
+
+        &:hover {
+            background-color: var(--color-base-brown);
+            border: 2px solid var(--color-light);
+            color: var(--color-light);
+        }
+    }
+
+    &--secondary {
+        background: linear-gradient(148deg, rgba(17, 131, 173, 1) 45%, rgba(135, 196, 219, 1) 100%);
+        background: rgb(17, 131, 173);
+        box-shadow: 0 3px 3px -2px var(--color-gray-dark);
+        color: var(--color-white-base);
+        font-size: 16px;
+
+        &:hover {
+            background-color: darken(#b54100, 5%);
+        }
+    }
+
+    &[disabled] {
+        background-color: gainsboro;
+        border: 0;
+        border-bottom: 1px solid var(--color-gray-dark);
+        color: var(--color-gray-dark);
+        pointer-events: none;
+    }
+
+    &--primary {
+        border: 1px solid var(--color-dark);
+        font-family: $t-sans-serif;
+        font-weight: bold;
+
+        &:hover {
+            box-shadow: 1px 1px 0 var(--color-dark), -1px -1px 0 var(--color-dark), -1px 1px 0 var(--color-dark), 1px -1px 0 var(--color-dark);
+        }
+    }
+}

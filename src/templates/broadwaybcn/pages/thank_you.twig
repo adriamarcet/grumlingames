@@ -1,0 +1,17 @@
+{% extends 'layouts/default.twig' %}
+
+{% block head %}
+    {{ parent() }}
+{% endblock %}
+
+{% block main %}
+    {% include '../components/cover.twig' %}
+
+    <section id="thanks_message" class="u-wrapper padding-top--xxl padding-bottom--xxl">
+        <h2 class="title3">{{ 'thank_you.title'|trans}}</h2>
+        <p>{{ 'thank_you.description'|trans}}</p>
+        <div class="thanks__cta margin-top--l">
+            <a href="./" class="cta cta--primary">{{ 'commons.cta_back_home'|trans}}</a>
+        </div>
+    </section>
+{% endblock %}

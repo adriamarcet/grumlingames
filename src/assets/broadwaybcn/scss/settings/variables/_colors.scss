@@ -1,0 +1,15 @@
+$c-white: #fff;
+$c-black: #000;
+$c-neutro900: gray;
+$c-neutro200: yellow;
+
+:root {
+    --color-base-brown: #9b2828;
+    --color-base-orange: #ab5327;
+    --color-dark: #1c180f;
+    --color-dark-blue: #3d4775;
+    --color-light-blue: #8a94bf;
+    --color-light-yellow: #f7e516;
+    --color-light: #f2f0c7;
+    --color-link: var(--color-base-orange);
+}

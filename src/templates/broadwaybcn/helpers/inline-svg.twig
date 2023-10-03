@@ -1,0 +1,10 @@
+{% set svg = svg|default(false) %}
+{% set class = class|default('') %}
+{% set span = span|default(false) %}
+{% set tag = span ? 'span':'div' %}
+
+{%- if svg -%}
+    <{{ tag }} class="u-icon {{ class }}">
+        {% include '../../../assets/broadwaybcn/img/icons/' ~ svg ~ '.svg' %}
+    </{{ tag }}>
+{%- endif -%}
