@@ -1,5 +1,5 @@
-const SITE_NAME = 'Broadway BCN';
-const SITE_URL = 'https://www.broadwaybcn.com';
+const SITE_NAME = 'Grumlin Games';
+const SITE_URL = 'https://www.grumlingames.com';
 
 const defaultLanguage = 'en';
 const languages = ['en', 'es', 'ca'];

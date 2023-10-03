@@ -1,6 +1,6 @@
 {
   "a11y": {
-    "home_link": "Main page: Broadway BCN",
+    "home_link": "Main page: Grumlin Games",
     "language_switcher": {
       "title": "Language switcher",
       "es": "Español",
@@ -96,7 +96,7 @@
     }
   },
   "services": {
-    "title": "Why Broadway BCN works",
+    "title": "Why Grumlin Games works",
     "service_1": {
       "title": "Courses for all ages",
       "description": "Groups from 7 years old and young people from 14 and up."
@@ -125,16 +125,16 @@
     "title": "Thank you for contacting us",
     "description": "We will answer you shortly."
   },
-  "title": "Broadway BCN",
+  "title": "Grumlin Games",
   "meta": {
-    "title": "Broadway BCN l'academia de teatre musical per joves a Barcelona",
+    "title": "Grumlin Games l'academia de teatre musical per joves a Barcelona",
     "description": "Accès per alumnes a partir dels 7 anys, totes les classes són amb un/a professora/a bilingüe i amb l'anglès com idioma base, tots els cursos intensius ténen funció final dins dun teatre.",
-    "url": "https://www.broadwaybcn.com/",
-    "image": "https://www.solar-model.com/assets/img/OGimage-ES.jpg",
-    "twitterImage": "https://www.solar-model.com/assets/img/OGimage-twitter-ES.jpg",
+    "url": "https://www.grumlingames.com/",
+    "image": "https://www.grumlingames.com/assets/img/OGimage-ES.jpg",
+    "twitterImage": "https://www.grumlingames.com/assets/img/OGimage-twitter-ES.jpg",
     "twitter": {
-      "site": "@broadwaybcn",
-      "creator": "@broadwaybcn"
+      "site": "@grumlingames",
+      "creator": "@grumlingames"
     }
   },
   "what_we_do": {
