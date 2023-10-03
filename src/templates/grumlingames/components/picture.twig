@@ -5,7 +5,7 @@
 {% set attr = component.attr|default('') %}
 
 {% if path %}
-    <picture class="picture {{ class }}">
+    <picture class="picture">
         {% for source in sources %}
             <source srcset="{{ source.path }}"
                 {% if source.attr %}{{ source.attr }}{% endif %}
@@ -17,13 +17,14 @@
             src="{{ path }}"
             alt="{{ alt }}"
             {{ attr|raw }}
-            width="768" 
-            height="1024" 
-            loading="lazy" 
-            decoding="async" 
+            class="{{ class }}"
+            width="768"
+            height="1024"
+            loading="lazy"
+            decoding="async"
             style="
-                background-size: cover; 
-                background-image: 
+                background-size: cover;
+                background-image:
                     url(
                         data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3Cpath d='M10 10h123v123H10z'/%3E%3C/svg%3E
                     )

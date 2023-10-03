@@ -77,27 +77,27 @@
     }
   },
   "footer": {
-    "languages_title": "Content available in",
+    "languages_title": "Contenido disponible en",
     "visit_instagram": "Visit us on Instagram",
     "visit_facebook": "Visit us on Facebook",
     "visit_youtube": "Visit us on Youtube",
     "contact_info": "Información de contacto",
     "address": {
-      "sentence_1": "Carrer de l'Or 24, 08024.",
+      "sentence_1": "",
       "sentence_2": "Barcelona",
-      "sentence_3": "<span class='js-year'>2021</span>"
+      "sentence_3": "<span class='js-year'>2023</span>"
     }
   },
   "header": {
     "link_main_page": "Back to main page"
   },
   "location": {
-    "title": "Address",
+    "title": "Adreça",
     "address": {
-      "title": "Microteatre Barcelona",
-      "complementary": "The face-to-face lessons and end-of-year performances will be inside the MicroTeatre de Barcelona, located in the center of the Gràcia district of Barcelona. In addition, the MicroTeatre has its own bar in case the students' companions want to wait there.",
-      "address": "Carrer de l'Or 25, Barcelona",
-      "phone": "Phone: 932779683"
+      "title": "",
+      "complementary": "",
+      "address": "",
+      "phone": ""
     }
   },
   "pages": {

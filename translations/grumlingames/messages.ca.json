@@ -40,8 +40,8 @@
     "cta_back_home": "Main page",
     "request": "Get in touch"
   },
-  "contact_form_label_subscription": "I want to subscribe to the mailing list.",
-  "contact_form_label_privacy": "I have read and accept the <a href='./privacy_policy' target='_blank'>privacy policy</a>",
+  "contact_form_label_subscription": "Vull subscriure'm a la llista de correu.",
+  "contact_form_label_privacy": "He llegit i accepto <a href='./privacy_policy' target='_blank'>la política de privadesa</a>",
   "contact_form_label_name": "Nom i cognnoms",
   "contact_form_label_phone": "Telèfon",
   "contact_form_label_email": "EMAIL",
@@ -77,15 +77,15 @@
     }
   },
   "footer": {
-    "languages_title": "Content available in",
+    "languages_title": "Contingut disponible en",
     "visit_instagram": "Visit us on Instagram",
     "visit_facebook": "Visit us on Facebook",
     "visit_youtube": "Visit us on Youtube",
     "contact_info": "Información de contacto",
     "address": {
-      "sentence_1": "Carrer de l'Or 24, 08024.",
+      "sentence_1": "",
       "sentence_2": "Barcelona",
-      "sentence_3": "<span class='js-year'>2021</span>"
+      "sentence_3": "<span class='js-year'>2023</span>"
     }
   },
   "header": {
@@ -94,10 +94,10 @@
   "location": {
     "title": "Adreça",
     "address": {
-      "title": "Microteatre Barcelona",
-      "complementary": "Las lecciones presenciales y las actuaciones de final de curso serán dentro del MicroTeatre de Barcelona, situado en el centro del barrio de Gràcia de Barcelona. Además, el MicroTeatre dispone de bar propio en caso de que los acompañantes de los alumnos quieran esperarse allí.",
-      "address": "Carrer de l'Or 25, Barcelona",
-      "phone": "Tel: 932779683"
+      "title": "",
+      "complementary": "",
+      "address": "",
+      "phone": ""
     }
   },
   "pages": {
