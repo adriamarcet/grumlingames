@@ -1,0 +1,60 @@
+{% extends 'layouts/default.twig' %}
+
+{% block head %}
+    {{ parent() }}
+    <link rel="alternate" hreflang="es" href="https://grumlingames.com/es" />
+    <link rel="alternate" hreflang="ca" href="https://grumlingames.com/ca" />
+{% endblock %}
+
+{% block title %}
+    {{ parent() }} {{ 'pages.home.title'|trans }}
+{% endblock %}
+
+{% block crp %}
+    {% include 'crp/crp.default.min.css' %}
+	{% include 'crp/crp.index.min.css' %}
+{% endblock %}
+
+{% block main %}
+    {# {% include '../components/cover.twig' %} #}
+    {% include '../components/fix-cta.twig' %}
+    {% include '../sections/billboard.twig' %}
+
+    <section class="{{ class }} padding-top--xxl padding-bottom--xxl theme3">
+        <div class="u-wrapper padding-top--xxl">
+            {% include '../components/picture.twig' with {
+                component: {
+                    path: '/assets/img/home_slider/home_slider_3_3-4.jpg',
+                    attr: 'width="1100" height="620"',
+                    sources: [
+                        {
+                            path: '/assets/img/home_slider/home_slider_3_1-1.jpg',
+                            attr: 'width="747" height="747"',
+                            media: '(min-width: 526px) and (max-width: 812px)',
+                            type: 'image/webp'
+                        },
+                        {
+                            path: '/assets/img/home_slider/home_slider_3_16-9.jpg',
+                            attr: 'width="1650" height="930"',
+                            media: 'min-width: 813px',
+                            type: 'image/webp'
+                        }
+                    ],
+                    class: 'margin-bottom--xl',
+                    alt: 'Portada del joc de taula Misty Valley',
+                }
+            } %}
+            <h2 class="title2 u-align-center margin-bottom--xxl t-display">{{ 'home.galeon.title'|trans }}</h2>
+            <p class="title4 t-serif margin-bottom--xl">{{ 'home.galeon.description'|trans }}</p>
+        </div>
+    </section>
+    {# {% include '../sections/faqs.twig' %} #}
+    {# {% include '../sections/location.twig' %} #}
+    {% include '../sections/contact-form.twig' %}
+{% endblock %}
+
+{% block scripts %}
+    {{ parent() }}
+    <script src="{{ asset('home.min.js') }}"></script>
+{% endblock %}
+

@@ -5,6 +5,14 @@ const defaultLanguage = 'ca';
 const languages = ['en', 'es', 'ca'];
 
 const routes = {
+  magimals: {
+    es: 'magimals',
+    ca: 'magimals'
+  },
+  goblin: {
+    es: 'goblin',
+    ca: 'goblin'
+  },
   privacy_policy: {
     es: 'politica_de_privacidad',
     ca: 'politica_de_privacitat'
