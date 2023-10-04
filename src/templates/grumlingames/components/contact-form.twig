@@ -1,9 +1,10 @@
 {% set phoneInvalid = 'error_messages.phone_invalid' %}
 {% set emailInvalid = 'error_messages.email_invalid' %}
+{% set fromPage =  fromPage|default('Inicio') %}
 
 <form name="contact" method="POST" data-netlify="true" action="{{ link('thank_you#thanks_message') }}" class="form js-validate-form" netlify-honeypot="cazodemiel">
     <input name="cazodemiel" hidden />
-    <input type="text" name="subject" value="Contacto web: {{ contactEmail }} rellenó el formulario" hidden >
+    <input type="text" name="subject" value="Contacto web: {{ contactEmail }} rellenó el formulario desde la página {{ fromPage }}" hidden >
     <div class="form__fieldset margin-bottom--l">
         <label for="contactName">{{ 'contact_form_label_name'|trans}}</label>
         <input id="contactName" type="text" name="contactName" value="" placeholder="">

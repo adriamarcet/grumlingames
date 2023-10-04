@@ -50,7 +50,9 @@
     </section>
     {# {% include '../sections/faqs.twig' %} #}
     {# {% include '../sections/location.twig' %} #}
-    {% include '../sections/contact-form.twig' %}
+    {% include '../sections/contact-form.twig' with { section: {
+        fromPage: 'Landing Goblin'}
+    }%}
 {% endblock %}
 
 {% block scripts %}
