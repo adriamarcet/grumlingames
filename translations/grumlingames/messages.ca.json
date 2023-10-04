@@ -36,9 +36,9 @@
   },
   "commons": {
     "contact_us": "Contacta'ns",
-    "your_phone_number": "Your phone number or email",
-    "cta_back_home": "Main page",
-    "request": "Get in touch"
+    "your_phone_number": "El teu telèfon o email",
+    "cta_back_home": "Pàgina principal",
+    "request": "Envia la consulta"
   },
   "contact_form_label_subscription": "Vull subscriure'm a la llista de correu.",
   "contact_form_label_privacy": "He llegit i accepto <a href='./privacy_policy' target='_blank'>la política de privadesa</a>",
@@ -116,8 +116,8 @@
     "claim": "Tens alguna pregunta, comentari o suggeriment? O estàs llest per compartir el teu prototip de joc amb nosaltres? No dubtis a posar-te en contacte amb l'equip de Grumlin Games. Estem aquí per escoltar-te i col·laborar amb tu en la creació d'experiències de joc inoblidables."
   },
   "thank_you": {
-    "title": "Thank you for contacting us",
-    "description": "We will answer you shortly."
+    "title": "Gràcies per contactar-nos",
+    "description": "Us respondrem en breu."
   },
   "title": "Hi",
   "meta": {

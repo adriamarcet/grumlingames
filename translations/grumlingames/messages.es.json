@@ -36,9 +36,9 @@
   },
   "commons": {
     "contact_us": "Contáctanos",
-    "your_phone_number": "Your phone number or email",
-    "cta_back_home": "Main page",
-    "request": "Get in touch"
+    "your_phone_number": "Tu teléfono o email",
+    "cta_back_home": "Página principal",
+    "request": "Ponte en contacto"
   },
   "contact_form_label_subscription": "Quiero suscribirme a la lista de correo para comunicaciones comerciales.",
   "contact_form_label_privacy": "He leído y acepto la <a href='./privacy_policy' target='_blank'>política de privacidad</a>.",
@@ -116,8 +116,8 @@
     "claim": "¿Tienes alguna pregunta, comentario o sugerencia? ¿O estás listo para compartir tu prototipo de juego con nosotros? No dudes en ponerte en contacto con el equipo de Grumlin Games. Estamos aquí para escucharte y colaborar contigo en la creación de experiencias de juego inolvidables."
   },
   "thank_you": {
-    "title": "Thank you for contacting us",
-    "description": "We will answer you shortly."
+    "title": "Gracias por contactarnos",
+    "description": "Te responderemos en breve."
   },
   "meta": {
     "title": "Grumlin Games, grandes juegos en pequeñas cajas",
