@@ -1,8 +1,0 @@
-{
-  "extends": "@runroom/eslint-config-runroom",
-  "rules": {
-    "no-nested-ternary": "off",
-    "object-curly-newline": ["error", { "consistent": true }],
-    "import/no-dynamic-require": "off"
-  }
-}

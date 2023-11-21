@@ -1,5 +1,0 @@
-{% macro icon(icon_name, icon_class, aria_title) %}{% spaceless %}
-    <span class="u-icon u-flex--inline {{ icon_class|default('') }}" {% if aria_title is empty %}aria-hidden="true"{% else %}aria-label="{{ aria_title }}"{% endif %}>
-        {% include '../../../assets/grumlingames/img/' ~ icon_name ~ '.svg' %}
-    </span>
-{% endspaceless %}{% endmacro %}
