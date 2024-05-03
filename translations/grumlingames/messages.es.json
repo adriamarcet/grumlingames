@@ -109,6 +109,10 @@
     },
     "privacy_policy": {
       "title": "Privacy policy"
+    },
+    "mistyvalley": {
+      "introduction": "El Valle Neblinoso guarda muchos secretos, ¡pero solo los exploradores más valientes pueden descubrirlos! Únete a una de las dos tribus, los Roebayas y los Buscarrastros, y aventúrate en territorio desconocido, compitiendo con tu rival por los recursos más valiosos. ¡Embárcate en la aventura con Valle Neblinoso!",
+      "description": "Misty Valley es un juego para dos jugadores, con una duración de 25 minutos y adecuado para edades a partir de los 10 años. Es un juego fácil de aprender que se centra en el control de mayoría y la colocación de fichas. Sin embargo, también es un juego táctico que implica acciones de ida y vuelta mientras los dos rivales revelan el valle y tratan de arrebatar los recursos valiosos del otro."
     }
   },
   "contact_form": {

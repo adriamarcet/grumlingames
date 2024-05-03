@@ -109,6 +109,10 @@
     },
     "privacy_policy": {
       "title": "Privacy policy"
+    },
+    "mistyvalley": {
+      "introduction": "La Vall Emboirada guarda molts secrets, però només els exploradors més valents poden descobrir-los! Uneix-te a una de les dues tribus, els Rossegaglans i els Cercarastres, i aventura't en territori desconegut, competint amb el teu rival pels recursos més valuosos. Embarca't en l'aventura amb Vall Emboirada!",
+      "description": "Misty Valley és un joc per a dos jugadors, amb una durada de 25 minuts i adequat per a edats a partir dels 10 anys. És un joc fàcil d'aprendre que es centra en el control de majoria i la col·locació de peces. No obstant això, també és un joc tàctic que implica accions d'anada i tornada mentre els dos rivals revelen la vall i intenten arrabassar els recursos valuosos de l'altre."
     }
   },
   "contact_form": {
