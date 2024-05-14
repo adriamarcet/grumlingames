@@ -1,17 +1,13 @@
 const SITE_NAME = 'Grumlin Games';
 const SITE_URL = 'https://www.grumlingames.com';
 
-const defaultLanguage = 'ca';
+const defaultLanguage = 'en';
 const languages = ['en', 'es', 'ca'];
 
 const routes = {
   magimals: {
     es: 'magimals',
     ca: 'magimals'
-  },
-  goblin: {
-    es: 'goblin',
-    ca: 'goblin'
   },
   privacy_policy: {
     es: 'politica_de_privacidad',
